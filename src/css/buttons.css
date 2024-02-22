@@ -1,0 +1,98 @@
+button:hover {
+  transform: scale(1.05);
+}
+button:active {  transform: scale(0.95);
+}
+svg:active  {  transform: scale(0.95);
+}
+
+.action-button{
+  width: -moz-fit-content;
+  width: fit-content;
+  flex-shrink: 0;
+  padding: 1em;
+  border-radius: 20px;
+  border: none;
+  font-size: 1em;
+  background-color: #ffc800;
+  transition: 200ms;
+  font-weight: bolder;
+  white-space: nowrap;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  place-self: center;
+}
+
+.myProfile-button {
+  width: -moz-fit-content;
+  width: fit-content;
+  flex-shrink: 0;
+  border: 1px solid !important;
+  border-radius: 2px;
+  background-color: #efefef;
+  padding: 0.4em;
+  font-size: 0.9em;
+  white-space: nowrap;
+  font-weight: 400;
+  place-self: flex-end;
+  margin-bottom: 1em;
+}
+
+.otherProfile-button {
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  padding: 0.4em;
+  font-size: 0.9em;
+  border-radius: 2px;
+  border: none;
+  background: linear-gradient(to right, #FF6B6B, #FF9A8B);
+  font-weight: 600;
+  place-self: flex-end;
+  margin-bottom: 1.5em;
+  margin-right: 1em;
+  white-space: nowrap;
+  margin-top: 1em;
+}
+
+
+.close-modal-button {
+  cursor: pointer;
+  border: 0;
+  position: fixed;
+  top: 0;
+  right: 0.5em;
+  z-index: 9999;
+  justify-self: flex-end;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.close-modal-button:hover {
+  transform: scale(1.1);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.close-modal-button:active {
+  transform: scale(0.95);
+  color: rgba(0, 0, 0, 0.95);
+
+}
+
+
+@media (min-width: 767px) {
+  .action-button{
+    font-size: 1.4em;
+    margin-top:2em;
+
+  }
+  .myProfile-button {
+    font-size: 0.8em;
+
+  }
+
+  .otherProfile-button {
+    font-size: 0.8em;
+  }
+
+
+} 

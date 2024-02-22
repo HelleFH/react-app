@@ -1,0 +1,33 @@
+footer {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  z-index: 9996;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+footer .container {
+  padding: 1em;
+  height: 120px;
+  background-color: #ffc09f;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 600;
+  width: 100%;
+}
+
+footer img {
+  max-width: 100px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0.7em;
+  border-radius: 10px;
+  margin:0 auto;
+}

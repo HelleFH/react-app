@@ -1,0 +1,57 @@
+.modal-content {
+  background-color: white;
+  top: 70px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 9995;
+  height: -moz-fit-content;
+  height: fit-content;
+
+}
+
+.modal-overlay {
+  position: absolute;
+  display: block;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  cursor: pointer;
+  height: calc(100vh + 75px);
+  overflow: auto;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.modal-overlay.isOpen {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.modal-buttons {
+  place-self: flex-end;
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: flex-end;
+}
+
+@media (min-width: 767px) {
+  .modal-overlay {
+    height: calc(100vh + 150px);
+  }
+
+  .close-modal-button {
+    top: 30px !important;
+    right: 50px;
+  }
+
+  .modal-content {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}

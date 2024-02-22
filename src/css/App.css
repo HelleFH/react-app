@@ -1,0 +1,151 @@
+@import url("https://use.typekit.net/vul5gtv.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  box-sizing: border-box;
+  font-size: 1em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  color: #333333;
+  width: 100vw;
+}
+
+#root input {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  padding-left: 0.5em;
+  font-weight: 600;
+
+}
+
+input::-moz-placeholder {
+  font-size: 0.9em;
+}
+
+input::placeholder {
+  font-size: 0.9em;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #333333;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #333333;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1em;
+  color: #333333;
+}
+
+
+.home-logo,
+.signup-page-logo {
+  max-width: 100px;
+  place-self: center;
+  padding: 1em;
+  background: rgba(255, 247, 242, 0.9);
+  border-radius: 30px;
+  margin-top: 8em;
+  margin-bottom: 5em;
+}
+
+
+.menu-logo {
+  max-width: 120px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0.7em;
+  border-radius: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+li:hover {
+  transform: scale(1.01);
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+li:active {
+  transform: scale(0.95);
+}
+
+a:visited {
+  color: #333333;
+}
+
+a:active {
+  color: black;
+}
+
+svg {
+  align-self: center;
+}
+
+@media (min-width: 767px) {
+  #root input {
+    font-size: 1.2em;
+  }
+
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+  }
+
+  .home-logo,
+  .signup-page-logo {
+    max-width: 200px;
+    place-self: center;
+    padding: 1.5em;
+    border-radius: 30px;
+    margin-top: 11em;
+    margin-bottom: 4.5em;
+  }
+
+  .menu-logo {
+    max-width: 120px;
+  }
+}

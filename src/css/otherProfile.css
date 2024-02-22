@@ -1,0 +1,107 @@
+.other-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border: 1px solid #e0e0e0;
+  background-color: #fcf5c7;
+  width: 100vw;
+  background-color: rgba(160, 206, 217, 0.2);
+  padding: 0.2em;
+}
+
+.other-profile-personal-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.other-profile-personal-info h4 {
+  font-size: 0.8em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.other-profile-interest-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  padding: 0;
+}
+
+.other-profile-interest-list li {
+  background-color: white;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 0.3em;
+  height: 25px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.other-profile-interest-list-container {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.additional-info {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+.additional-info div:not(:last-child) {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3em;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.5em;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.additional-info p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.7em;
+}
+
+.other-profile-personal-info div {
+  display: flex;
+  flex-direction: column;
+}
+
+.favorite-profile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+  top: 10vh;
+  position: relative;
+  padding-bottom: 6em;
+  margin-bottom: 5em;
+}
+
+.other-profile-buttons {
+  margin-left: auto;
+  padding:1em 0.5em;
+  display: flex;
+  flex-direction: row !important;
+
+}
+
+@media (min-width: 767px) {
+
+  .other-profile {
+    max-width: 40vw;
+    padding: 0.5em;
+  }
+
+  .favorite-profile-content {
+    top: 12vh;
+    align-items: center;
+    width: 40vw;
+    margin: 0 auto;
+    margin-bottom: 10em;
+  }
+}
