@@ -337,10 +337,6 @@ function ProfileForm({
           ))}
         </div>
       </div>
-
-      
-
-
       <button className='myProfile-button' type="submit">Save</button>
     </form>
   );

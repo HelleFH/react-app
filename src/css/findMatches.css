@@ -1,11 +1,12 @@
 .find-matches-content {
   background: linear-gradient(to bottom, rgba(252, 245, 199, 0.99), white);
+  min-height: 100vh;
 }
 
 .find-matches-content h2 {
   padding-top: 3em;
   text-align: center;
-}
+} 
 
 .swipe {
   position: absolute;
