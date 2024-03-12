@@ -119,7 +119,7 @@ function ProfileForm({
         <div>
           <label htmlFor="postcode">Postcode:</label>
           <input
-            type="text" // Use text type for postcode
+            type="text"
             id="postcode"
             name="postcode"
             value={postcode}
@@ -130,7 +130,7 @@ function ProfileForm({
         <div>
           <label htmlFor="city">City:</label>
           <input
-            type="text" // Use text type for city
+            type="text"
             id="city"
             name="city"
             value={city}
@@ -186,7 +186,7 @@ function ProfileForm({
 <div>
           <label htmlFor="occupation">Job title:</label>
           <input
-            type="text" // Use text type for city
+            type="text" 
             id="occupation"
             name="occupation"
             value={occupation}

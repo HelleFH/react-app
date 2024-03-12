@@ -6,10 +6,6 @@ import Modal from '../components/modal';
 import { Link } from 'react-router-dom';
 
 
-import { faSmoking, faPen, faChild, faCoffee, faBeer, faCocktail, faStar, faBaby } from '@fortawesome/free-solid-svg-icons'; // Import Font Awesome icons
-
-
-
 function FindMatches() {
   // Store favorited profiles
   const [favoritedProfiles, setFavoritedProfiles] = useState([]);
@@ -123,7 +119,7 @@ function FindMatches() {
       if (storedProfileString) {
         const storedProfile = JSON.parse(storedProfileString);
         setStoredProfile(storedProfile);
-        setSelectedProfile(storedProfile); // Set the selected profile from localStorage
+        setSelectedProfile(storedProfile); 
       }
     }, []);
 

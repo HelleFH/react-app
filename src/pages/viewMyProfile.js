@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { FaUser, FaPerson, FaBriefcase, FaUserPolice, FaPhone, FaMapMarker, FaEnvelope, FaChild, FaSmoking, FaGraduationCap, FaWineGlass, FaStar, FaListUl, FaBaby, FaCocktail } from 'react-icons/fa'; // Import Font Awesome icons
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { FaUser, FaPerson, FaBriefcase, FaUserPolice, FaPhone, FaMapMarker, FaEnvelope, FaChild, FaSmoking, FaGraduationCap, FaWineGlass, FaStar, FaListUl, FaBaby, FaCocktail } from 'react-icons/fa'; 
+import { Link } from 'react-router-dom'; 
 
 function UserProfile() {
   const [profileData, setProfileData] = useState({
@@ -23,10 +23,8 @@ function UserProfile() {
   });
 
   useEffect(() => {
-    // Retrieve user information from local storage
     const userInfo = JSON.parse(localStorage.getItem('UserInfo')) || {};
 
-    // Check if user information exists in local storage
     if (userInfo) {
       setProfileData(userInfo);
     }

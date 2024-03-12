@@ -1,5 +1,5 @@
 import React from 'react';
-import SignUpForm from '../components/SignUpForm'; // Update the import path
+import SignUpForm from '../components/SignUpForm'; 
 
 function SignUp() {
   return (

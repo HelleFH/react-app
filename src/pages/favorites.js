@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { faSmoking, faPen, faChild, faCoffee, faBeer, faCocktail, faStar, faBaby } from '@fortawesome/free-solid-svg-icons'; // Import Font Awesome icons
+import { faSmoking, faCocktail, faStar, faBaby } from '@fortawesome/free-solid-svg-icons'; // Import Font Awesome icons
 
 
 function Favorites() {
@@ -20,10 +20,9 @@ function Favorites() {
 
 
   useEffect(() => {
-    // Filtering logic based on favoritedProfiles and filter criteria
-    const filtered = favoritedProfiles.filter((profile) => {
-      // Your filtering conditions here
-      const childrenCount = parseInt(profile.children, 10);
+      const filtered = favoritedProfiles.filter((profile) => {
+
+        const childrenCount = parseInt(profile.children, 10);
       const childrenMatch =
         (hasChildrenFilter === "All") ||
         (hasChildrenFilter === "Yes" && childrenCount > 0) ||

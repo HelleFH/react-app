@@ -50,13 +50,11 @@ function SignUpForm() {
       userInfo.email = email;
       localStorage.setItem('UserInfo', JSON.stringify(userInfo));
 
-      // For now, you can log the data to the console
       console.log({ firstName, lastName, email, password });
 
-      // Continue with your navigation logic
       navigate('/CreateProfile');
     } else {
-      // There are validation errors, update the state with error messages
+
       setErrors(errors);
     }
   };

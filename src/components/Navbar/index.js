@@ -107,14 +107,13 @@ const CloseButton = styled(FaTimes)`
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
-  // Function to close the menu
   const closeMenu = () => {
     setOpen(false);
   };
 
   useEffect(() => {
     if (!open) {
-      // Perform an action when the menu is closed
+
     }
   }, [open]);
 
