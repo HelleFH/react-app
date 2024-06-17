@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.cbb2d08a.css",
+    "main.css": "/react-app/static/css/main.7e44ab39.css",
     "main.js": "/react-app/static/js/main.c7a707b1.js",
     "static/media/couple-wedding.png": "/react-app/static/media/couple-wedding.a7c4bf033cc99d051a08.png",
     "index.html": "/react-app/index.html",
-    "main.cbb2d08a.css.map": "/react-app/static/css/main.cbb2d08a.css.map",
+    "main.7e44ab39.css.map": "/react-app/static/css/main.7e44ab39.css.map",
     "main.c7a707b1.js.map": "/react-app/static/js/main.c7a707b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbb2d08a.css",
+    "static/css/main.7e44ab39.css",
     "static/js/main.c7a707b1.js"
   ]
 }
