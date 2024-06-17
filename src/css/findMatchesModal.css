@@ -10,7 +10,7 @@
 }
 
 .modal-overlay {
-  position: absolute;
+  position: fixed;
   display: block;
   width: 100%;
   left: 0;
@@ -19,7 +19,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 9999;
   cursor: pointer;
-  height: calc(100vh + 75px);
+height:100%;
   overflow: auto;
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
@@ -41,9 +41,6 @@
 }
 
 @media (min-width: 767px) {
-  .modal-overlay {
-    height: calc(100vh + 150px);
-  }
 
   .close-modal-button {
     top: 30px !important;
